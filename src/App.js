@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Wrapper from './components/Wrapper';
 import NavBar from './components/NavBar';
+import Header from './components/Header';
 import './App.css';
 
 class App extends Component {
@@ -34,8 +35,8 @@ class App extends Component {
     return (
       <Wrapper>
         <NavBar> </NavBar>
-        {/* <Header> </Header>
-        <Images />
+        <Header> </Header>
+        {/* <Images />
         <Footer /> */}
       </Wrapper>
     );
