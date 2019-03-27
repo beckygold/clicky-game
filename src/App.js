@@ -1,30 +1,42 @@
 import React, { Component } from 'react';
 import Wrapper from './components/Wrapper';
+import NavBar from './components/NavBar';
 import './App.css';
 
 class App extends Component {
   state = {
-    score,
-    clicked
+    // score,
+    // clicked
   };
 
-// Listen for clicks
-  clickTile = () => {
+// Listen for image clicks
+  clickImage = () => {
     // Check to see if image has been clicked already
 
-    // If clicked = false, +1 to score
+      // If clicked = false, +1 to score
 
-    // Change clicked: false > clicked: true
+        // Change 'clicked: false' -> 'clicked: true'
+
+        // Alert user of correct guess
+
+        // Shuffle images
+    
+    // If clicked = true, set score to 0
+
+      // Reset all images clicked value to false
+
+      // Alert user of incorrect guess
+
+      // Shuffle images
   }
 
-  // Map over tiles to render each image
   render() {
     return (
       <Wrapper>
-        <NavBar>Clicky Game</NavBar>
-        <Header> </Header>
-        <Tiles />
-        <Footer />
+        <NavBar> </NavBar>
+        {/* <Header> </Header>
+        <Images />
+        <Footer /> */}
       </Wrapper>
     );
   }
