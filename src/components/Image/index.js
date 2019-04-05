@@ -1,10 +1,24 @@
 import React from "react";
 import "./style.css";
 
-function Image(props) {
+function Image (props)  {
     return (
-    <img src={props.image} alt={props.name} class="img-thumbnail" />
+        <img 
+    onClick={props.clickFunction}
+    src={props.src} 
+    id={props.id}
+    alt={props.name} 
+    className="img-thumbnail" />
+
     );
-}
+};
+
+// const Image = props = (
+//     <img 
+//     src={props.src} 
+//     id={props.id}
+//     alt={props.name} 
+//     className="img-thumbnail" />
+// );
 
 export default Image;

@@ -1,0 +1,50 @@
+[
+    { 
+        "id": 1, 
+        "name": "Charlotte Vandertunt",
+        "src": "./images/charlotte-vandertunt.png" },
+    { 
+        "id": 2, 
+        "name": "Crackers",
+        "src": "./images/crackers.png" },
+    { 
+        "id": 3, 
+        "name": "Crackers and Noah",
+        "src": "./images/crackers-and-noah.png" },
+    { 
+        "id": 4, 
+        "name": "Howler Monkey",
+        "src": "./images/howler-monkey.png" },
+    { 
+        "id": 5, 
+        "name": "Loose Goose",
+        "src": "./images/loose-goose.png" },
+    { 
+        "id": 6, 
+        "name": "Malory Archer",
+        "src": "./images/malory-archer.png" },
+    { 
+        "id": 7, 
+        "name": "Pam Poovey",
+        "src": "./images/pam-poovey.png" },
+    { 
+        "id": 8, 
+        "name": "Princess Lanaluakalani - Adventure",
+        "src": "./images/princess-lanaluakalani.png" },
+    { 
+        "id": 9, 
+        "name": "Princess Lanaluakalani - Formal",
+        "src": "./images/princess-lanaluakalani-02.png" },
+    { 
+        "id": 10, 
+        "name": "Reynaud",
+        "src": "../images/reynaud.png" },
+    { 
+        "id": 11, 
+        "name": "Siegbert Fuchs",
+        "src": "./images/siegbert-fuchs.png" },
+    { 
+        "id": 12, 
+        "name": "Sterling Archer",
+        "src": "./images/sterling-archer.png" }
+    ]
