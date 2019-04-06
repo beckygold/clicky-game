@@ -8,7 +8,9 @@ function Image (props)  {
     src={props.src} 
     id={props.id}
     alt={props.name} 
-    className="img-thumbnail" />
+    // className="img-thumbnail" 
+    className="rounded" 
+    />
 
     );
 };
